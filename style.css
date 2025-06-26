@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*Typography*/
+  /*Font size*/
+  font-size: 62.5%;
+
+  /*Font family*/
+  --open_sans: "Open Sans", sans-serif;
+
+  /*Colors*/
+  /*Background*/
+  --bg-color: #d9d9d9;
+
+  /*Border*/
+  --border-color: #d9d9d9;
+
+  /*Text color*/
+  --text-primary: #1b1b1b;
+  --text-secondary: #333333;
+  --text-tertiary: #696969;
+  --text-headline: #e1624f;
+
+  /*Accent color*/
+  --accent-blue: #0c51a7;
+  --accent-orange: #e95e10;
+  --accent-pink: #e5245e;
+  --accent-purple: #591b98;
+}
