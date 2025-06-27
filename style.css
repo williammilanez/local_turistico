@@ -35,19 +35,19 @@
 
 body {
   display: inline-flex;
-  padding: 8.8rem 8rem 4.8rem 8rem;
+  padding: 8.8rem 16rem;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
   gap: 6.5rem;
 
   background: var(--bg-color);
+  width: 100%;
 }
 
 header,
 main {
   display: flex;
-  width: 112rem;
   flex-direction: column;
   align-items: flex-start;
   gap: 4rem;
@@ -98,39 +98,34 @@ h1 {
 }
 
 .description-image {
-  height: 66rem;
-  align-self: stretch;
-
+  height: auto;
+  max-height: 66rem;
+  width: 100%;
   border-radius: 2.8rem;
-  background: url(./assets/busan.jpg) lightgray 50% / cover no-repeat;
+  object-fit: cover;
 }
 
 .main-description {
-  height: 3.7rem;
   align-self: stretch;
-
   color: var(--text-secondary);
   text-align: center;
-
-  /* subtitle */
   font-family: var(--open_sans);
   font-size: 1.6rem;
   font-style: italic;
   font-weight: 400;
   line-height: normal;
+  margin-top: 1.6rem;
 }
 
 #content-list {
   display: flex;
-  width: 112rem;
   flex-direction: column;
   align-items: flex-start;
 }
 
 .divisor {
-  width: 112rem;
   height: 0.1rem;
-
+  width: 100%;
   background: var(--border-color);
 
   margin: 4rem 0rem 6.4rem;
@@ -221,15 +216,13 @@ p {
 }
 
 h3 {
-  width: 1183.508px;
   color: var(--text-primary);
-
-  /* h3 */
   font-family: var(--open_sans);
   font-size: 2.8rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  padding-left: 1.2rem;
 }
 
 .good_for {
