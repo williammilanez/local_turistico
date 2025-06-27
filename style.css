@@ -11,10 +11,11 @@
 
   /*Font family*/
   --open_sans: "Open Sans", sans-serif;
+  --alice: "Alice", sans-serif;
 
   /*Colors*/
   /*Background*/
-  --bg-color: #d9d9d9;
+  --bg-color: #f5f4f0;
 
   /*Border*/
   --border-color: #d9d9d9;
@@ -30,4 +31,277 @@
   --accent-orange: #e95e10;
   --accent-pink: #e5245e;
   --accent-purple: #591b98;
+}
+
+body {
+  display: inline-flex;
+  padding: 8.8rem 8rem 4.8rem 8rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 6.5rem;
+
+  background: var(--bg-color);
+}
+
+header,
+main {
+  display: flex;
+  width: 112rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+#title-page {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.8rem;
+  align-self: stretch;
+}
+
+.headline {
+  align-self: stretch;
+  color: var(--text-headline);
+  font-family: "Open Sans";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+h1 {
+  align-self: stretch;
+  color: var(--text-primary);
+
+  /* h1 */
+  font-family: var(--open_sans);
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#description-image {
+  display: flex;
+  padding: 0.4rem 0rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+  align-self: stretch;
+}
+
+.description-image {
+  height: 66rem;
+  align-self: stretch;
+
+  border-radius: 2.8rem;
+  background: url(./assets/busan.jpg) lightgray 50% / cover no-repeat;
+}
+
+.main-description {
+  height: 3.7rem;
+  align-self: stretch;
+
+  color: var(--text-secondary);
+  text-align: center;
+
+  /* subtitle */
+  font-family: var(--open_sans);
+  font-size: 1.6rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#content-list {
+  display: flex;
+  width: 112rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6.4rem;
+}
+
+.divisor {
+  width: 112rem;
+  height: 0.1rem;
+
+  background: var(--border-color);
+}
+
+#title-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.8rem;
+  align-self: stretch;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.2rem;
+}
+
+h2 {
+  color: var(--text-primary);
+
+  /* h2 */
+  font-family: var(--open_sans);
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+p {
+  align-self: stretch;
+  color: var(--text-secondary);
+
+  /* paragraph */
+  font-family: var(--open_sans);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4.8rem;
+  align-self: stretch;
+}
+
+.card_travel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  align-self: stretch;
+}
+
+.first-image,
+.second-image,
+.third-image {
+  height: 35rem;
+  align-self: stretch;
+
+  border-radius: 2.8rem;
+}
+
+.first-image {
+  background: url(./assets/templo_haedong_yonggungsa.jpg) lightgray 50% / cover
+    no-repeat;
+}
+
+.second-image {
+  background: url(./assets/templo_beomeo-sa.jpg) lightgray 50% / cover no-repeat;
+}
+
+.third-image {
+  background: url(./assets/parque_yongdusan.jpg) lightgray 50% / cover no-repeat;
+}
+
+.content_card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
+  align-self: stretch;
+}
+
+h3 {
+  width: 1183.508px;
+  color: var(--text-primary);
+
+  /* h3 */
+  font-family: var(--open_sans);
+  font-size: 2.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.good_for {
+  color: var(--text-secondary);
+  font-family: var(--open_sans);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.history,
+.couples,
+.families,
+.budget {
+  /* paragraph */
+  font-family: var(--open_sans);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.history {
+  color: var(--accent-blue);
+}
+
+.couples {
+  color: var(--accent-purple);
+}
+
+.families {
+  color: var(--accent-pink);
+}
+
+.budget {
+  color: var(--accent-orange);
+}
+
+.last-description {
+  align-self: stretch;
+
+  color: var(--text-secondary);
+  text-align: center;
+
+  /* paragraph */
+  font-family: var(--open_sans);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+#credit {
+  color: var(--text-secondary);
+  font-variant-numeric: lining-nums tabular-nums;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: var(--alice);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

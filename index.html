@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Alice&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
 
@@ -30,9 +30,9 @@
         </section>
 
         <section id="description-image">
-          <img src="./assets/busan.jpg" alt="Foto da cidade de Busan" />
+          <img class="description-image" />
 
-          <p class="description">
+          <p class="main-description">
             Busan, a estrela em ascensão da Coreia do Sul, oferece de tudo,
             desde churrascarias de primeira linha até tradicionais barracas de
             comida de rua. Aqui, exploramos a segunda cidade da Coreia do Sul e
@@ -43,6 +43,7 @@
 
       <main>
         <section id="content-list">
+          <div class="divisor"></div>
           <div id="title-list">
             <article class="title">
               <p class="headline">Para os amantes de história</p>
@@ -63,11 +64,8 @@
             </article>
 
             <article class="list">
-              <div class="travel">
-                <img
-                  src="./assets/templo_haedong_yonggungsa.jpg"
-                  alt="Foto do Templo Haedong Yonggungsa"
-                />
+              <div class="card_travel">
+                <img class="first-image" />
 
                 <div class="content_card">
                   <h3>Templo Haedong Yonggungsa</h3>
@@ -80,19 +78,16 @@
                     montanhas do outro.
                   </p>
 
-                  <p>Bom para:</p>
+                  <p class="good_for">Bom para:</p>
 
                   <ul>
-                    <li>História</li>
+                    <li class="history">História</li>
                   </ul>
                 </div>
               </div>
 
-              <div class="travel">
-                <img
-                  src="./assets/templo_beomeo-sa.jpg"
-                  alt="Foto do Templo Beomeo-sa"
-                />
+              <div class="card_travel">
+                <img class="second-image" />
 
                 <div class="content_card">
                   <h3>Templo Beomeo-sa</h3>
@@ -105,19 +100,16 @@
                     arquitetura da Dinastia Joseon.
                   </p>
 
-                  <p>Bom para:</p>
+                  <p class="good_for">Bom para:</p>
 
                   <ul>
-                    <li>História</li>
+                    <li class="history">História</li>
                   </ul>
                 </div>
               </div>
 
-              <div class="travel">
-                <img
-                  src="./assets/parque_yongdusan.jpg"
-                  alt="Foto do Parque Yongdusan"
-                />
+              <div class="card_travel">
+                <img class="third-image" />
 
                 <div class="content_card">
                   <h3>Parque Yongdusan</h3>
@@ -132,12 +124,12 @@
                     Hall of World Model Boats.
                   </p>
 
-                  <p>Bom para:</p>
+                  <p class="good_for">Bom para:</p>
 
                   <ul>
-                    <li>Casais</li>
-                    <li>Famílias</li>
-                    <li>Orçamento</li>
+                    <li class="couples">Casais</li>
+                    <li class="families">Famílias</li>
+                    <li class="budget">Orçamento</li>
                   </ul>
                 </div>
               </div>
@@ -146,7 +138,9 @@
 
           <div id="list"></div>
 
-          <p class="description">
+          <div class="divisor"></div>
+
+          <p class="last-description">
             As melhores coisas para fazer em Busan mostram a reputação da cidade
             como um importante porto marítimo na Ásia. Frequentemente vista como
             a essência da Coreia do Sul, você experimentará uma atmosfera única
