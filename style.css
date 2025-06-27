@@ -53,10 +53,8 @@ main {
   gap: 4rem;
 }
 
-footer {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
+main {
+  margin-bottom: 6.5rem;
 }
 
 #title-page {
@@ -127,7 +125,6 @@ h1 {
   width: 112rem;
   flex-direction: column;
   align-items: flex-start;
-  gap: 6.4rem;
 }
 
 .divisor {
@@ -135,13 +132,15 @@ h1 {
   height: 0.1rem;
 
   background: var(--border-color);
+
+  margin: 4rem 0rem 6.4rem;
 }
 
 #title-list {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0.8rem;
+  gap: 6.4rem;
   align-self: stretch;
 }
 
@@ -240,6 +239,12 @@ h3 {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+
+  margin-top: 2rem;
+}
+
+ul {
+  padding-left: 2.4rem;
 }
 
 .history,
@@ -304,4 +309,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#credit img {
+  vertical-align: middle;
 }
