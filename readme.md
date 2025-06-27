@@ -3,7 +3,7 @@
 ## Destino: Busan, Coreia do Sul
 
 <div align="center">
-  <img src="./assets/project_cover.jpg" alt="Capa do Projeto" />
+  <img src="./assets/project_cover.jpg" alt="Capa do Projeto" width="75%" />
 </div>
 
 Este projeto é uma página estática desenvolvida com **HTML e CSS**, apresentando **Busan**, uma das cidades mais vibrantes e culturais da Coreia do Sul.
